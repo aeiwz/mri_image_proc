@@ -94,11 +94,9 @@ The trained model is evaluated on a test set, and the performance is measured us
 
 ## Results
 
-### Loss Graph
-![Loss Graph](Loss_Graph.png)
+### Performance
+![Performance](./src/img/Performance model.png)
 
-### Dice Coefficient Graph
-![Accuracy Graph](Accuracy_Graph.png)
 
 ### Example Results
 
