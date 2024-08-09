@@ -1,5 +1,5 @@
 
-```markdown
+
 # Brain MRI Segmentation Using U-Net
 
 This project implements a U-Net model for segmenting Brain MRI images. The model is trained using a dataset of MRI images and their corresponding masks, and it uses data augmentation to improve generalization.
@@ -14,7 +14,8 @@ This project implements a U-Net model for segmenting Brain MRI images. The model
 - [Usage](#usage)
 - [License](#license)
 
-```
+---
+
 - **input/kaggle_3m/**: Directory containing the training images and masks.
 - **evaluate/**: Directory where evaluation HTML files with side-by-side comparisons are stored.
 - **Brain_MRI_Segmentation.ipynb**: Jupyter notebook containing the training and evaluation code.
