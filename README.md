@@ -10,9 +10,7 @@ This project implements a U-Net model for segmenting Brain MRI images. The model
 - [Model Architecture](#model-architecture)
 - [Training](#training)
 - [Evaluation](#evaluation)
-- [Results](#results)
-- [Usage](#usage)
-- [License](#license)
+
 
 ---
 
@@ -74,7 +72,7 @@ This project uses a U-Net architecture, which is widely used for image segmentat
 The model is trained using the Dice Coefficient Loss, which is particularly effective for image segmentation tasks. The Adam optimizer is used for optimization.
 
 ### Training Parameters:
-- Epochs: 100
+- Epochs: 1000
 - Batch size: 32
 - Learning rate: 1e-4
 
@@ -98,23 +96,3 @@ The trained model is evaluated on a test set, and the performance is measured us
 ![Performance](https://github.com/aeiwz/mri_image_proc/blob/982f3197534c505ba362f1070ed2e9543a33d95f/src/img/Performance%20model.png)
 
 
-### Example Results
-
-Side-by-side comparisons of original images, true masks, and predicted masks are saved as HTML files in the `evaluate/` directory.
-
-## Usage
-
-To train and evaluate the model, simply run the Jupyter notebook `Brain_MRI_Segmentation.ipynb`.
-
-```bash
-jupyter notebook Brain_MRI_Segmentation.ipynb
-```
-
-The notebook will guide you through the data loading, model training, and evaluation processes.
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-```
-
-This `README.md` provides an overview of the project, including setup instructions, a summary of the model architecture, training details, and how to use the code. Adjust the paths and any specific details based on your actual project structure and needs.
