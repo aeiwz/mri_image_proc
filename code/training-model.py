@@ -15,7 +15,7 @@ from plotly.subplots import make_subplots
 import plotly.express as px
 
 # Set paths and image dimensions
-data_path = '/Volumes/CAS9/Aeiwz/Project/Brain MRI/input/kaggle_3m'
+data_path = './input/kaggle_3m'
 img_width, img_height = 256, 256
 
 # Prepare training and mask data
@@ -141,4 +141,4 @@ for i in range(10):
     fig.add_trace(px.imshow(img[0]).data[0], row=1, col=1)
     fig.add_trace(px.imshow(cv2.imread(df_test['masks'].iloc[idx])).data[0], row=1, col=2)
     fig.add_trace(px.imshow(pred_img[0] > 0.5).data[0], row=1, col=3)
-    fig.write_html(f'/Volumes/CAS9/Aeiwz/Project/Brain MRI/evaluate/{i}.html')
+    fig.write_html(f'./evaluate/{i}.html')
