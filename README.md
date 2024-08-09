@@ -95,7 +95,7 @@ The trained model is evaluated on a test set, and the performance is measured us
 ## Results
 
 ### Performance
-![Performance](./src/img/Performance model.png)
+![Performance](src/img/Performance model.png)
 
 
 ### Example Results
