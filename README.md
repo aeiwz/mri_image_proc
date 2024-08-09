@@ -95,7 +95,7 @@ The trained model is evaluated on a test set, and the performance is measured us
 ## Results
 
 ### Performance
-![Performance](src/img/Performance model.png)
+![Performance](https://github.com/aeiwz/mri_image_proc/blob/982f3197534c505ba362f1070ed2e9543a33d95f/src/img/Performance%20model.png)
 
 
 ### Example Results
