@@ -15,7 +15,7 @@ from plotly.subplots import make_subplots
 import plotly.express as px
 
 # Set paths and image dimensions
-data_path = './input/kaggle_3m'
+data_path = './input'
 img_width, img_height = 256, 256
 
 # Prepare training and mask data
