@@ -31,7 +31,7 @@ pip install tensorflow scikit-image opencv-python-headless scikit-learn matplotl
 The dataset used in this project consists of Brain MRI images and their corresponding masks. The dataset should be organized in the following structure:
 
 ```
-input/kaggle_3m/
+input/
 │
 ├── image_1.png
 ├── image_1_mask.png
